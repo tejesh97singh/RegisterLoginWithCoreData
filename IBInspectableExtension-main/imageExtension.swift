@@ -39,15 +39,6 @@ class ForImageView:UIImageView{
      
 }
 
-extension UIImageView{
-    func applyBlurEffect() {
-       let blurEffect = UIBlurEffect(style: .light)
-       let blurEffectView = UIVisualEffectView(effect: blurEffect)
-        blurEffectView.frame = self.bounds
-        self.addSubview(blurEffectView)
-   }
-}
-
 
 
 

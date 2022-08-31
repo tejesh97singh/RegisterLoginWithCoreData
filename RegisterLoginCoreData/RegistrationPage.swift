@@ -165,4 +165,3 @@ extension Double{
         self = 0.0
     }
 }
-
